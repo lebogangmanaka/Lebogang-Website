@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FRUIT ALLEY SUPERMARKET</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div id ="header">
+<h1>info@fruitalleysupermarket.co.za</h1>  
+ </div>
+</header>
+<div id ="nav">
+<ul>
+   <img src="images/LOGO.PNG" width=150 height=80/>
+  <li><a href="Donate.html">Donate/Support</a></li>
+  <li><a href="Product.html">Products</a></li>
+  <li><a href="ContactUs.html">Contact Us</a></li>
+  <li><a href="AboutUs.html">About Us</a></li>
+  <li><a href="index.html">Home</a></li>
+</ul>
+</div>
+
+<section>
+<div id="topToBottom">
+<div id="h1">
+<h1>WELCOME TO FRUIT ALLEY SUPERMARKET</h1>
+<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vulputate eu scelerisque felis imperdiet proin Suspendisse ultrices gravida dictum fusce ut placerat orci. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus et. Vitae suscipit tellus mauris a diam maecenas sed enim ut. Quisque id diam vel quam elementum pulvinar. Consequat interdum varius sit amet mattis vulputate enim nulla. Mus mauris vitae ultricies leo. </P>
+<br>
+<a href="AboutUs.html" class="button">About Us</a></button>
+<a href="Donation.html" class="button2">Get involved</a></button>
+</div>
+</div>
+</section>
+<br>
+<br>
+
+<div id = "Container" >
+<div class="slideshow-container">
+<div class="mySlides">
+  <h3> Agriculture builds civilization</h3>
+  <q>I love you the more in that I believe you had liked me for my own sake and for nothing else <a href = "https://everydaypower.com/booker-t-washington-quotes/"> Booker T. Washington</a></q>
+</div>
+
+<div class="mySlides">
+  <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+  <p class="author">- Ernest Hemingway</p>
+</div>
+
+<div class="mySlides">
+  <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+  <p class="author">- Thomas A. Edison</p>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+   
+}
+</script>
+</div>
+</div>
+
+<div>
+<image src="images/yy.png" style="float:left; width:25%; margin-right:1%; margin-bottom:0,5em;">
+<image src="images/NYDA.png" style="float:left; width:25%; margin-right:1%; margin-bottom:0,5em;">
+<image src="images/kk.png" style="float:left; width:30%; margin-right:1%; margin-bottom:0,5em;">
+<p style="clear:both;"> 
+</div> 
+
+<div class="footer">
+  <p>This website was designed by Capenexis Website Developers</p>
+</div>
+</body>
+</html>
