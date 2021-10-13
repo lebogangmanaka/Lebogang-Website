@@ -1,0 +1,92 @@
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color:grey;
+  text-align: left;
+  padding: 5px 4px;
+  text-decoration: none;
+
+}
+/* Style the header */
+#header {
+  background-color: DodgerBlue;
+  padding: 5px;
+  text-align: left;
+  font-size: 7px;
+  color: white;
+
+}
+ 
+#h1{ background-image: url('images/ff.jpg');
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 80%;
+  text-align: center; 
+  color:black;
+  font-size:19px;
+Padding: 30px;
+}
+
+#h2{
+  background-color:lightblue;
+pading:15px;
+text-align:center;
+font-size: 13px
+color:black;
+
+}
+#h3{
+
+}
+#h4{
+background-color:lightblue;
+pading:6px;
+text-align:center;
+font-size: 7px
+color:black;
+}
+
+#container {
+background-color: green;
+  padding: 5px;
+  text-align: left;
+  font-size: 7px;
+  color:dodgerblue;
+}
+#div {
+background-color: lightgrey;
+width: 300px;
+border: 15px solid green;
+padding: 50px;
+margin: 20px;
+}
+/* Full-width input fields */
+input{
+width: 15%;
+padding: 15px;
+margin-bottom: 5px 0 22px 0;
+display: inline-block;
+border: 5px black;
+background: #f1f1f1;
+}
+
+div.style {
+  text-align:center;
+  border: 1px solid rgb(0,0,0);
+  width:20px;
+  height:20px;              
+  float: right;
+}
+
+
